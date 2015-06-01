@@ -1,0 +1,43 @@
+{
+  "name": "triangle-incenter",
+  "version": "1.0.0",
+  "description": "computes the incenter of a triangle",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "gl-vec2": "^1.0.0",
+    "gl-vec3": "^1.0.3",
+    "vectors": "^0.1.0"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "node test.js | faucet"
+  },
+  "keywords": [
+    "triangle",
+    "2d",
+    "3d",
+    "tri",
+    "tris",
+    "incenter",
+    "center",
+    "centre",
+    "vector"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/triangle-incenter.git"
+  },
+  "homepage": "https://github.com/mattdesl/triangle-incenter",
+  "bugs": {
+    "url": "https://github.com/mattdesl/triangle-incenter/issues"
+  }
+}
