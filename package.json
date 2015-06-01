@@ -1,6 +1,6 @@
 {
   "name": "triangle-incenter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "computes the incenter of a triangle",
   "main": "index.js",
   "license": "MIT",
