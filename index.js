@@ -1,4 +1,4 @@
-var length = require('vectors/mag-nd')
+var length = require('magnitude')
 
 function sub (tmp, a, b) {
   for (var i = 0; i < tmp.length; i++) {

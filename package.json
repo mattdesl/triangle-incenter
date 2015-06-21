@@ -10,7 +10,7 @@
     "url": "https://github.com/mattdesl"
   },
   "dependencies": {
-    "vectors": "^0.1.0"
+    "magnitude": "^1.0.0"
   },
   "devDependencies": {
     "faucet": "0.0.1",
