@@ -1,7 +1,7 @@
 var length = require('vectors/mag-nd')
 
-function sub(tmp, a, b) {
-  for (var i=0; i<tmp.length; i++) {
+function sub (tmp, a, b) {
+  for (var i = 0; i < tmp.length; i++) {
     tmp[i] = a[i] - b[i]
   }
   return tmp
@@ -14,7 +14,7 @@ function triangleIncenter (triangle) {
   }
 
   var dim = triangle[0].length
-  
+
   var v1 = triangle[0]
   var v2 = triangle[1]
   var v3 = triangle[2]
@@ -25,7 +25,7 @@ function triangleIncenter (triangle) {
   var d3 = length(sub(tmp, v2, v1))
   var p = d1 + d2 + d3
 
-  for (var i=0; i<dim; i++) {
+  for (var i = 0; i < dim; i++) {
     tmp[i] = (v1[i] * d1 + v2[i] * d2 + v3[i] * d3) / p
   }
 
